@@ -1,8 +1,7 @@
 # Unique name for this workflow
 name: Validate PR on develop branch
 
-permissions:
-  actions: read
+permissions: read-all
 
 # Definition when the workflow should run
 on:
