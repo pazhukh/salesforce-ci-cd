@@ -1,5 +1,5 @@
 # Unique name for this workflow
-name: Deploy integration branch to integration and staging/uat orgs
+name: Deploy feature branch to develop org
 
 # Definition when the workflow should run
 on:
@@ -11,7 +11,7 @@ on:
 
 # Jobs to be executed
 jobs:
-    deploy-branch-to-master org:
+    deploy-branch-to-master-org:
         runs-on: ubuntu-latest
         if: ${{ github.actor != 'dependabot[bot]' }}
         steps:
