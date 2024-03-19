@@ -8,7 +8,6 @@ public with sharing class AccountHandlerTest {
         );
         insert acc;
 
-        system.debug(2);
 
         acc.Name = 'new name';
         update acc;
